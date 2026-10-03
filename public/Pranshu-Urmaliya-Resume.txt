@@ -1,0 +1,55 @@
+PRANSHU URMALIYA
+Full Stack Web Developer | MERN Stack Developer
+Bhopal, Madhya Pradesh, India
+LinkedIn: https://linkedin.com/in/pranshu-urmaliya-7046b328
+GitHub: https://github.com/PranshuUrmaliya2004
+
+PROFESSIONAL SUMMARY
+Computer Science graduate with hands-on experience building web applications using JavaScript, React.js, Node.js, Express.js, MongoDB, and SQL. Developed full-stack projects in e-commerce and AI-powered applications. Interested in Full Stack and MERN Stack development, LLM applications, and Generative AI. A quick learner and problem solver who enjoys learning new technologies and building practical, user-focused solutions.
+
+TECHNICAL SKILLS
+Programming: Java (Basic), JavaScript
+Frontend: HTML5, CSS3, React.js, Vite, Responsive Web Design
+Backend: Node.js, Express.js, REST APIs, JWT Authentication, Socket.IO
+Databases: MongoDB, MySQL, SQL
+AI / LLM (project use and ongoing learning): Generative AI, LLM Application Development, Gemini API, RAG Concepts, Vector Databases, Pinecone, AI Chatbot Development, Prompt-based AI Applications
+Tools: Git, GitHub, VS Code, Postman, Vercel, Render
+
+PROJECTS
+Trisha AI | AI-powered conversational assistant
+Built a ChatGPT-style assistant. Features include JWT registration and login, AI conversations, saved chat history and memory, message editing and regeneration, Socket.IO communication, Gemini API, Pinecone/RAG functionality, and PDF, DOCX, TXT, and image attachments with document understanding.
+Technologies: React.js, Vite, Node.js, Express.js, MongoDB, Socket.IO, Gemini API, Pinecone, JWT, REST APIs
+Live: https://chatgpt-prjct-1-cohrat-2.onrender.com/
+GitHub: https://github.com/PranshuUrmaliya2004/Chatgpt-prjct-1-cohrat
+
+ShopNex | MERN stack e-commerce website
+Clothing e-commerce application with product browsing and details, cart, authentication, admin functionality, order management, checkout, and a payment-method interface.
+Technologies: MongoDB, Express.js, React.js, Node.js, JavaScript, REST APIs
+Live: https://shopnex-frontend.vercel.app/
+GitHub: https://github.com/PranshuUrmaliya2004/E-Commerce--website
+
+Quick Converter | Currency and unit conversion web application
+Interactive currency and unit converter built with HTML, CSS, JavaScript, and API integration.
+
+EXPERIENCE AND INTERNSHIPS
+SQL Internship | 10 days
+Practical learning in SQL queries, database concepts, data retrieval, filtering, sorting, and basic database operations.
+
+IT / Computer Software Internship | Arist Automation | 24 June 2024 - 04 July 2024
+Focused on MySQL fundamentals, database concepts, SQL queries, and practical database learning.
+
+EDUCATION
+B.Tech, Computer Science and Engineering
+Sagar Institute of Research & Technology - Excellence (SIRT), Bhopal
+Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)
+
+12th, MP Board | 2022 | 81.6%
+Physics: 81 | Chemistry: 81 | Mathematics: 88
+10th, MP Board | 2020 | 86.5%
+
+CERTIFICATIONS
+Tata / Forage - GenAI Data Analytics Job Simulation | September 2025
+Practical job simulation covering Generative AI and data analytics.
+
+Arist Automation - IT / Computer Software Internship Certificate | 24 June 2024 - 04 July 2024
+Focus: MySQL and computer software.

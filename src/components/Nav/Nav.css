@@ -1,0 +1,138 @@
+.site-header {
+	--nav-ink: #1d2925;
+	--nav-paper: #f3f1e9;
+	--nav-accent: #ef795e;
+
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	padding: 0 6vw;
+	background: var(--nav-paper);
+	color: var(--nav-ink);
+	animation: nav-arrive 500ms ease-out both;
+}
+
+.site-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	max-width: 1200px;
+	min-height: 76px;
+	margin: 0 auto;
+	border-bottom: 1px solid rgb(29 41 37 / 16%);
+}
+
+.site-nav__brand {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.7rem;
+	color: inherit;
+	font-family: 'Space Grotesk', 'Trebuchet MS', sans-serif;
+	font-size: 0.92rem;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.site-nav__mark {
+	display: grid;
+	width: 1.75rem;
+	aspect-ratio: 1;
+	place-items: center;
+	border-radius: 50%;
+	background: var(--nav-accent);
+	color: var(--nav-ink);
+	font-size: 0.78rem;
+	font-weight: 700;
+}
+
+.site-nav__links {
+	display: flex;
+	align-items: center;
+	gap: clamp(1.25rem, 3vw, 2.75rem);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.site-nav__links a {
+	position: relative;
+	display: inline-block;
+	padding: 0.6rem 0;
+	color: inherit;
+	font-size: 0.84rem;
+	font-weight: 600;
+	text-decoration: none;
+	transition: color 180ms ease;
+}
+
+.site-nav__links a::after {
+	position: absolute;
+	right: 0;
+	bottom: 0.25rem;
+	left: 0;
+	height: 2px;
+	background: var(--nav-ink);
+	content: '';
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 180ms ease;
+}
+
+.site-nav__links a:hover::after,
+.site-nav__links a:focus-visible::after {
+	transform: scaleX(1);
+}
+
+.site-nav a:focus-visible {
+	outline: 2px solid var(--nav-ink);
+	outline-offset: 5px;
+}
+
+@keyframes nav-arrive {
+	from {
+		opacity: 0;
+		transform: translateY(-8px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 600px) {
+	.site-header {
+		padding: 0 1.25rem;
+	}
+
+	.site-nav {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 0.75rem;
+		justify-content: center;
+		padding: 1rem 0;
+	}
+
+	.site-nav__links {
+		flex-wrap: wrap;
+		gap: 0.25rem 1rem;
+	}
+}
+
+@media print {
+	.site-header {
+		display: none;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.site-header {
+		animation: none;
+	}
+
+	.site-nav__links a,
+	.site-nav__links a::after {
+		transition: none;
+	}
+}

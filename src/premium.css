@@ -15,8 +15,15 @@ html {
 	--coral: #eaa47b;
 	--muted: #a8b7b1;
 	--line: rgb(210 232 222 / 16%);
+	--creative-peach: #ffb178;
+	--creative-pink: #ff6d8b;
+	--creative-lavender: #d9d2ff;
 
-	background: var(--paper);
+	background:
+		radial-gradient(circle at 18% 12%, rgb(155 226 191 / 10%), transparent 22%),
+		radial-gradient(circle at 82% 10%, rgb(255 177 120 / 14%), transparent 24%),
+		radial-gradient(circle at 72% 88%, rgb(217 210 255 / 12%), transparent 26%),
+		var(--paper);
 	color: var(--ink);
 	overflow: clip;
 }
@@ -52,16 +59,28 @@ html {
 }
 
 .intro {
-	background-color: #0b1214;
+	background:
+		radial-gradient(circle at 20% 18%, rgb(155 226 191 / 13%), transparent 28%),
+		radial-gradient(circle at 82% 6%, rgb(255 143 96 / 16%), transparent 30%),
+		radial-gradient(circle at 50% 100%, rgb(217 210 255 / 10%), transparent 30%),
+		linear-gradient(180deg, rgb(11 18 20) 0%, rgb(12 22 25) 100%);
 	background-image:
 		linear-gradient(rgb(174 217 198 / 3%) 1px, transparent 1px),
-		linear-gradient(90deg, rgb(174 217 198 / 3%) 1px, transparent 1px);
-	background-size: 48px 48px;
+		linear-gradient(90deg, rgb(174 217 198 / 3%) 1px, transparent 1px),
+		radial-gradient(circle at 20% 18%, rgb(155 226 191 / 13%), transparent 28%),
+		radial-gradient(circle at 82% 6%, rgb(255 143 96 / 16%), transparent 30%),
+		radial-gradient(circle at 50% 100%, rgb(217 210 255 / 10%), transparent 30%),
+		linear-gradient(180deg, rgb(11 18 20) 0%, rgb(12 22 25) 100%);
+	background-size: 48px 48px, 48px 48px, auto, auto, auto, auto;
 }
 
 .intro h1 span,
 .intro h1 .intro__greeting {
-	color: var(--lime);
+	background: linear-gradient(135deg, #ffb776 0%, #ff5fbf 28%, #8f7dff 56%, #4fe3ff 78%, #73ffc6 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	text-shadow: 0 0 30px rgba(143, 125, 255, 0.25);
 }
 
 .intro__role span,
@@ -87,13 +106,17 @@ html {
 
 .intro-art {
 	border: 1px solid rgb(155 226 191 / 21%);
-	background: linear-gradient(135deg, #14272a 0%, #1a3738 100%);
+	background: linear-gradient(135deg, #14272a 0%, #1a3738 42%, #222d2d 100%);
 	border-radius: 28px;
 	box-shadow: 0 28px 70px rgb(0 0 0 / 20%);
 }
 
 .intro-art::before {
 	border-color: rgb(210 232 222 / 20%);
+}
+
+.intro-art::after {
+	background: radial-gradient(circle, rgb(255 177 120 / 56%) 0%, rgb(255 177 120 / 18%) 38%, transparent 74%);
 }
 
 .intro-art__stamp {
@@ -129,13 +152,13 @@ html {
 
 .button--light,
 .button--dark {
-	background: var(--lime);
-	color: #0a1512;
+	background: linear-gradient(135deg, #ffb45e 0%, #ff5ec7 28%, #7e6bff 62%, #4fe3ff 100%);
+	color: #fffaf7;
 }
 
 .button--light:hover,
 .button--dark:hover {
-	background: #b9f0d3;
+	background: linear-gradient(135deg, #ffc67f 0%, #ff79d3 28%, #8f7dff 62%, #6be7ff 100%);
 }
 
 .button--outline {
@@ -152,7 +175,7 @@ html {
 .projects,
 .education,
 .resume {
-	background: #10191c;
+	background: linear-gradient(180deg, rgba(16, 25, 28, 0.9) 0%, rgba(13, 18, 19, 0.95) 100%);
 }
 
 .experience,

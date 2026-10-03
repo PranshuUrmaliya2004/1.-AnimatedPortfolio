@@ -256,6 +256,11 @@ function App() {
               <span className="section-index">08 / CONTACT</span>
               <h2 id="contact-title">Let&apos;s talk about<br /><em>what comes next.</em></h2>
               <p className="contact__location">Pranshu Urmaliya · Bhopal, Madhya Pradesh, India</p>
+              <div className="contact__meta">
+                <a href="mailto:pransuurmaliya2018@gmail.com">pransuurmaliya2018@gmail.com</a>
+                <span>•</span>
+                <a href="tel:+919165747413">+91 91657 47413</a>
+              </div>
               <div className="contact__socials">
                 <a href={linkedInUrl} target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
                 <a href={githubUrl} target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
